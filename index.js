@@ -12,6 +12,10 @@ app.get('/api/goodbye', (req, res) => {
   res.json({ message: 'Goodbye from Node.js API!' });
 });
 
+app.get('/api/rakeshanjani', (req, res) => {
+  res.json({ message: 'Hello, Rakesh Anjani!' });
+});
+
 app.post('/api/echo', (req, res) => {
   res.json({ received: req.body });
 });
